@@ -4448,6 +4448,46 @@ dependencies = [
 ]
 
 [[package]]
+name = "repl_cli"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "arrow 53.0.0",
+ "aws-lc-sys",
+ "base64 0.22.1",
+ "bb8",
+ "chacha20poly1305",
+ "chrono",
+ "clap",
+ "clickhouse",
+ "cmake",
+ "console",
+ "console-subscriber",
+ "csv",
+ "datafusion",
+ "duckdb",
+ "env_logger",
+ "futures-util",
+ "indicatif",
+ "klickhouse",
+ "log",
+ "parquet",
+ "polars",
+ "rand",
+ "rand_core",
+ "reedline-repl-rs",
+ "rustls",
+ "serde",
+ "serde_json",
+ "serde_toml",
+ "serde_yaml",
+ "sha2",
+ "sqlx",
+ "tokio",
+ "toml",
+]
+
+[[package]]
 name = "replace_with"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4515,46 +4555,6 @@ dependencies = [
  "spki",
  "subtle",
  "zeroize",
-]
-
-[[package]]
-name = "rust_crab"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "arrow 53.0.0",
- "aws-lc-sys",
- "base64 0.22.1",
- "bb8",
- "chacha20poly1305",
- "chrono",
- "clap",
- "clickhouse",
- "cmake",
- "console",
- "console-subscriber",
- "csv",
- "datafusion",
- "duckdb",
- "env_logger",
- "futures-util",
- "indicatif",
- "klickhouse",
- "log",
- "parquet",
- "polars",
- "rand",
- "rand_core",
- "reedline-repl-rs",
- "rustls",
- "serde",
- "serde_json",
- "serde_toml",
- "serde_yaml",
- "sha2",
- "sqlx",
- "tokio",
- "toml",
 ]
 
 [[package]]

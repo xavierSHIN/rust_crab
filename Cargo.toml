@@ -41,5 +41,3 @@ toml = "0.8.19"
 bb8 = "0.8.5"
 parquet = "53.0.0"
 
-[dev-dependencies]
-console-subscriber = "0.4.0"
